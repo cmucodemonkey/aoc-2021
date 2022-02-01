@@ -5,9 +5,9 @@ coordinate_list = []
 count = 0
 
 for item in input_list:
-    firstPoint, secondPoint = item.split(" -> ")
-    x1, y1 = map(int, firstPoint.split(","))
-    x2, y2 = map(int, secondPoint.split(","))
+    first_point, second_point = item.split(" -> ")
+    x1, y1 = map(int, first_point.split(","))
+    x2, y2 = map(int, second_point.split(","))
 
     if x1 == x2 and y1 != y2:
         for y in range(min(y1, y2), max(y1, y2) + 1):

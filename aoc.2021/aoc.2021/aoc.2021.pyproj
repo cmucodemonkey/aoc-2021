@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>284afade-261a-49fe-af78-340572ec08fe</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>day5.part2.py</StartupFile>
+    <StartupFile>day6.part1.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -41,6 +41,9 @@
     <Compile Include="day2.part2.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="day6.part1.py">
+      <SubType>Code</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Input\" />
@@ -51,6 +54,7 @@
     <Content Include="Input\day3.txt" />
     <Content Include="Input\day4.txt" />
     <Content Include="Input\day5.txt" />
+    <Content Include="Input\day6.txt" />
   </ItemGroup>
   <ItemGroup>
     <InterpreterReference Include="Global|PythonCore|3.10" />
